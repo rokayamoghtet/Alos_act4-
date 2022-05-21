@@ -1,0 +1,5 @@
+create table directory (user_id INT NOT NULL  Track PRIMARY KEY, ServiceUPS TEXT, Poids TEXT, Adresse TEXT , DateLivré TEXT, TempsLivré TEXT, Signé  TEXT);
+insert into directory (Track, ServiceUPS, Poids, Adresse, DateLivré, TempsLivré, Signé) values ('888888888','UPS Standard','3,96 Kg','13000 Marseille France','26-04-2022','10:14:50', 'MAGUIRE J');
+insert into directory (Track, ServiceUPS, Poids, Adresse, DateLivré, TempsLivré, Signé) values ('111111111' ,'UPS Ground', '2,00 Kg','100 rue des fleur Paris France','30-04-2022','14:30:02','AMBROSE');
+insert into directory (Track, ServiceUPS, Poids, Adresse, DateLivré, TempsLivré, Signé) values ('555555555','UPS Standard','19,00 Kg','Dharma Paris France', '01-05-2022','09:40:20','Rivers');
+insert into directory (Track, ServiceUPS, Poids, Adresse, DateLivré, TempsLivré, Signé) values ('222222222' ,'UPS Standard','7,9 Kg','12000 Marseille France','15-06-2022','13:50:00','Donald');
